@@ -36,6 +36,20 @@ p {
   margin: 15px 0 20px 0;
 }
 
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
 .section-p1 {
   padding: 40px 80px;
 }
@@ -207,3 +221,120 @@ body {
   flex-wrap: wrap;
 }
 /* FEATURE END */
+
+/* PRODUCTS START */
+#product1 {
+  text-align: center;
+}
+
+#product1 .pro-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+#product1 .pro {
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.02);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 25px;
+  margin: 15px 0px;
+  position: relative;
+}
+
+#product1 .pro:hover {
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+#product1 .pro .des {
+  text-align: start;
+  padding: 10px 0px;
+}
+
+#product1 .pro .des span {
+  color: #606063;
+  font-size: 12px;
+}
+
+#product1 .pro .des h5 {
+  padding-top: 7px;
+  color: #1a1a1a;
+  font-size: 14px;
+}
+
+#product1 .pro .des i {
+  font-size: 12px;
+  padding: 10px 0px;
+}
+
+#product1 .pro .des h4 {
+  color: #088178;
+  padding-top: 7px;
+  font-weight: 700;
+}
+
+#product1 .pro .cart {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: #e8e8e8;
+  font-weight: 500;
+  color: #088178;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  transition: all 0.3s ease;
+}
+
+#product1 .pro .cart:hover {
+  transform: scale(1.2);
+}
+/* PRODUCTS END */
+
+/* BANNER START */
+#banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-image: url('img/banner/b2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0px;
+  height: 40vh;
+  background-position: center;
+}
+
+#banner h4 {
+  color: white;
+  font-size: 16px;
+}
+
+#banner h2 {
+  color: white;
+  font-size: 30px;
+  padding: 10px 0px;
+}
+
+#banner h2 span {
+  color: #ef3636;
+}
+
+#banner button:hover {
+  color: #fff;
+  background-color: #088178;
+}
+/* BANNER END */
