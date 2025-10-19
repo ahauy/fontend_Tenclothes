@@ -162,6 +162,11 @@ body {
   font-size: 16px;
   color: #088178;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#hero button:hover {
+  color: #032c2a;
 }
 /* HERO END */
 
@@ -338,3 +343,20 @@ body {
   background-color: #088178;
 }
 /* BANNER END */
+
+/* BANNER SMALL START */
+#sm-banner .banner-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-image: url('img/banner/b17.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0px;
+  height: 40vh;
+  background-position: center;
+  max-width: 580px;
+}
+/* BANNER SMALL END */
